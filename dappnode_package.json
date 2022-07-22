@@ -35,9 +35,5 @@
     "driver": "ethereum-beacon-chain",
     "serviceName": "beacon-validator",
     "portNumber": 4500
-  },
-  "dependencies": {
-    "web3signer-ropsten.dnp.dappnode.eth": "latest",
-    "goerli-geth.dnp.dappnode.eth": "latest"
   }
 }
