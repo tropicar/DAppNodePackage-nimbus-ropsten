@@ -1,11 +1,9 @@
-[ 
+[
   {
-      "labels": {
-          "package": "nimbus-prater.dnp.dappnode.eth",
-          "service": "beacon-validator.nimbus-prater.dappnode"
-      },
-      "targets": [
-          "beacon-validator.nimbus-prater.dappnode:8008"
-      ]
+    "labels": {
+      "package": "nimbus-ropsten.dnp.dappnode.eth",
+      "service": "beacon-validator.nimbus-ropsten.dappnode"
+    },
+    "targets": ["beacon-validator.nimbus-ropsten.dappnode:8008"]
   }
 ]

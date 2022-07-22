@@ -1,4 +1,3 @@
-
 version: "2"
 fields:
   - id: GRAFFITI
@@ -26,7 +25,7 @@ fields:
     title: Checkpoint for fast sync
     description: >-
       To get Teku up and running in only a few minutes, you can start Teku from a recent finalized checkpoint state rather than syncing from genesis. This is substantially **faster** and consumes **less resources** than syncing from genesis, while still providing all the same features. Be sure you are using a trusted node for the fast sync. Check [Teku docs](https://docs.teku.consensys.net/en/latest/HowTo/Get-Started/Checkpoint-Start/)
-      Get your checkpoint sync from [infura](https://infura.io/) (i.e https://XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX@eth2-beacon-prater.infura.io)
+      Get your checkpoint sync from [infura](https://infura.io/) (i.e https://XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX@eth2-beacon-ropsten.infura.io)
     required: false
   - id: web3Backup
     target:
@@ -49,4 +48,3 @@ fields:
     required: true
     pattern: "^0x[a-fA-F0-9]{40}$"
     patternErrorMessage: Must be a valid address (0x1fd16a...)
-  

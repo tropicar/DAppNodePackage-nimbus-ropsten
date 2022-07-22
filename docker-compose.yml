@@ -19,7 +19,7 @@ services:
       - 9000/tcp
       - 9000/udp
     volumes:
-      - "nimbus-prater-data:/home/user/nimbus-eth2/build/data"
-    image: "beacon-validator.nimbus-prater.dnp.dappnode.eth:0.1.0"
+      - "nimbus-ropsten-data:/home/user/nimbus-eth2/build/data"
+    image: "beacon-validator.nimbus-ropsten.dnp.dappnode.eth:0.1.0"
 volumes:
-  nimbus-prater-data: {}
+  nimbus-ropsten-data: {}
