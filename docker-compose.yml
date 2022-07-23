@@ -9,8 +9,10 @@ services:
     stop_grace_period: 1m
     environment:
       LOG_TYPE: INFO
-      HTTP_WEB3PROVIDER: "http://goerli-geth.dappnode:8545"
+      HTTP_WEB3PROVIDER: "http://ropsten.dappnode:8545"
+      HTTP_ENGINE_API: "http://ropsten.dappnode:8551"
       GRAFFITI: validating_from_DAppNode
+      TTD_OVERRIDE: 50000000000000000
       WEB3_BACKUP: ""
       CHECKPOINT_SYNC_URL: ""
       EXTRA_OPTS: ""

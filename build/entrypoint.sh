@@ -68,4 +68,7 @@ exec -c /home/user/nimbus-eth2/build/nimbus_beacon_node \
     --keymanager-token-file=${TOKEN_FILE} \
     --graffiti="$GRAFFITI" \
     --suggested-fee-recipient="${FEE_RECIPIENT_ADDRESS}" \
+    --jwt-secret=/jwtsecret \
+    --terminal-total-difficulty-override=$TTD_OVERRIDE \
+    --web3-url=$HTTP_ENGINE_API \
     $EXTRA_OPTS
